@@ -14,4 +14,4 @@ print(df.head())
 df.to_parquet(f'output_month_{mouth}.parquet')
 # df.to_parquet(f"output_day_{sys.argv[1]}.parquet")
 
-print(f'hello pipeline, month={mouth}')
+print(f'hello pipeline, month={mouth}') 
